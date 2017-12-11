@@ -85,7 +85,7 @@ sudo pacman -S --noconfirm --needed timew
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed powerline
 sudo pacman -S --noconfirm --needed offlineimap
-sudo pacman -S --noconfirm --needed mutt
+sudo pacman -S --noconfirm --needed neomutt
 sudo pacman -S --noconfirm --needed msmtp
 sudo pacman -S --noconfirm --needed mu
 sudo pacman -S --noconfirm --needed pass
