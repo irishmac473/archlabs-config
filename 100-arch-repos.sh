@@ -54,10 +54,6 @@ set -e
 sudo pacman -R --noconfirm grml-zsh-config
 sudo pacman -R --noconfirm zsh
 
-# I like my install of virtualbox better
-sudo pacman -R --noconfirm virtualbox
-sudo pacman -R --noconfirm virtualbox-host-dkms
-
 # Start with figlet so I can echo very fancy information
 sudo pacman -S --noconfirm --needed figlet
 
@@ -95,8 +91,8 @@ sudo pacman -S --noconfirm --needed weechat
 sudo pacman -S --noconfirm --needed angband
 sudo pacman -S --noconfirm --needed dwarffortress
 sudo pacman -S --noconfirm --needed cmatrix
-sudo pacman -S --noconfirm --needed virtualbox
 sudo pacman -S --noconfirm --needed virtualbox-host-modules-arch
+sudo pacman -S --noconfirm --needed virtualbox
 sudo pacman -S --noconfirm --needed ripgrep
 
 clear
