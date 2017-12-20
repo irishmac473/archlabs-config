@@ -94,6 +94,7 @@ sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed virtualbox-host-modules-arch
 sudo pacman -S --noconfirm --needed virtualbox
 sudo pacman -S --noconfirm --needed ripgrep
+sudo pacman -S --noconfirm --needed cura
 
 clear
 echo "================================================================="
